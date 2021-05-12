@@ -73,7 +73,7 @@ Pour pousser un tag :
 git push origin <nom du tag>
 
 Pour pousser plusieurs tags : 
-Git push --tag
+Git push --tags
 
 Pour revenir à commit précis : 
 Git checkout <numero commit> 
