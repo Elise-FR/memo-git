@@ -81,3 +81,6 @@ Git checkout <numero commit>
 Pour revenir au master après le HEAD: 
 Git switch - 
 
+Pour afficher tous ses commits : 
+git log
+
