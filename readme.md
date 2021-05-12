@@ -84,3 +84,6 @@ Git switch -
 Pour afficher tous ses commits : 
 git log
 
+pwd = pour savoir où je suis dans ma ligne de commande
+ls = pour lister ce qu'il y a dans mon répoertoire
+git status = pour voir mes modifs et savoir où j'en suis
