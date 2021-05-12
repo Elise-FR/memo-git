@@ -10,3 +10,38 @@ push = envoyer sur le repo distant
 
 Fork = Sorte de photocopie. On récupère le code source sur notre profil. Il est duppliqué.
 
+Taguer une version = la nommer
+
+repository = fichier + ensemble de l'historique des changements 
+
+Aide 1:
+Créer un nouveau dossier sur la ligne de commande GIT :
+Mkdir <nom du dossier> (attention les <> sont uniquement là pour dire qu'il faut remplacer par notre nom de dossier, il n'y a pas besoin de les mettre dans notre ligne de commande)
+
+Naviguer dans un dossier existant : 
+cd <nom dus dossier>
+
+Lister les éléments dans dossier : 
+ls
+
+Activer git pour un répertoire : 
+Git init
+
+Aide 2:
+
+Vérifier l'état des modifs dans un dépot:
+Git status
+
+Afficher les modifs apportées aux fichiers:
+Git diff
+
+Ajouter les modifs d'un fichier à soumettre : 
+Git add <nom de mon fichier>
+
+Pour ajouter toutes les modifs d'un seul coup : 
+Git add . (Attention, si on a plusieurs fichier dans un répertoire, il prend en compte tous les fichiers, mieux vaut nommer chaque fichier)
+
+Pour soumettre les modifs qu'on a ajoutées avec un message décrivant les modifs : 
+git commit -m "mon message"
+
+
