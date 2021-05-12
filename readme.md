@@ -44,4 +44,40 @@ Git add . (Attention, si on a plusieurs fichier dans un répertoire, il prend en
 Pour soumettre les modifs qu'on a ajoutées avec un message décrivant les modifs : 
 git commit -m "mon message"
 
+Aide 3:
+
+Ajoutez nom utilisateur github à la configuration git :
+git config --global user.username <UserName>
+
+Vérifier ce qui a été configuré dans git :: 
+git config --global user.username
+
+Important : 
+
+Lorsque l'on veut que notre répertoire soit reconnu par Git : 
+git init (que l'on fait une seule fois)
+
+Lorsque l'on modifie un ficher : 
+git add <nom du fichier> (à refaire à chaque modifs)
+
+On fait ensuite un commit message : 
+git commit -m "mon message" (à faire à chaque fois que l'on veut marquer un commit)
+
+Pour pouvoir envoyer nos fichiers sur github : 
+git remote add origin git@github.com:....git
+git push -u origin master 
+
+(git push à faire au minimum 1x par jour)
+
+Pour pousser un tag : 
+git push origin <nom du tag>
+
+Pour pousser plusieurs tags : 
+Git push --tag
+
+Pour revenir à commit précis : 
+Git checkout <numero commit> 
+
+Pour revenir au master après le HEAD: 
+Git switch - 
 
